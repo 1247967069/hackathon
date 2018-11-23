@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  display: flex;        
+  flex-direction: column; 
+  font-size: 12px;        
+  font-family: arial;     
+}
+.page-comtain{
+	text-align: center;
+	font-size: 35px;
+}
+.page-text{
+	font-size: 23px;
+}
+.page-logo{
+	text-align: center;
+	flex: 1;
+	margin-top: 10px;
+}
+.page-logo img{
+	width: 350px;
+	height: 350px;
+}
+
+.page-text{
+	text-align: center;
+	flex: 2;
+	margin-top: 10px;
+}
+
+.page-text a{
+	font-size: 45px;
+	color: #ffffff；
+	text-decoration:none;
+}
